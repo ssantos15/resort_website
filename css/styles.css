@@ -1,5 +1,27 @@
-div {
-  text-align: center;
+.intro {
+  /* text-align: center; */
   font-family: fantasy;
   text-decoration: underline;
+  color:white;
+}
+
+.column {
+  width:33%;
+  float: left;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro h1 {
+  font-size: 750%;
 }
