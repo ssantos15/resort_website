@@ -1,9 +1,61 @@
-div {
-  text-align: center;
-  font-family: fantasy;
+.intro {
+  font-family: cursive;
   text-decoration: underline;
+  color:white;
+}
+
+.column {
+  width:33%;
+  float: left;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro h1 {
+  font-size: 750%;
 }
 
 body {
-  background-color: skyblue;
+  background-color: gray;
+  color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
